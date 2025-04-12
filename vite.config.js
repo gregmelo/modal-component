@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.js'),
-      name: '[Modal]',
-      fileName: (format) => `[modal].${format}.js`
+      name: 'Modal', // Nom pour le bundle UMD
+      fileName: (format) => `modal.${format}.js` // Nom de fichier statique : modal.umd.js, modal.es.js
     },
     rollupOptions: {
       external: ['react', 'react-dom'],

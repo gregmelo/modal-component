@@ -1,0 +1,31 @@
+{
+  "name": "@gregmelo/modal-component",
+  "version": "1.0.0",
+  "description": "A reusable React modal component with customizable messages and styles",
+  "main": "dist/modal.umd.js",
+  "module": "dist/modal.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["react", "modal", "component", "ui"],
+  "author": "Véricel Grégory",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "react-icons": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregmelo/modal-component.git"
+  },
+  "homepage": "https://github.com/gregmelo/modal-component#readme"
+}
